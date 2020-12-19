@@ -1,16 +1,36 @@
+<?xml version="1.0"?>
+<robot>
 
-<gazebo reference="link_chassis">
-    <material>Gazebo/Yellow</material>
-</gazebo>
-<gazebo reference="link_front_left_wheel">
-    <material>Gazebo/Blue</material>
-</gazebo>
-<gazebo reference="link_front_right_wheel">
-    <material>Gazebo/Blue</material>
-</gazebo>
-<gazebo reference="link_back_left_wheel">
-    <material>Gazebo/Red</material>
-</gazebo>
-<gazebo reference="link_back_right_wheel">
-    <material>Gazebo/Red</material>
-</gazebo>
+  <material name="black">
+    <color rgba="0.0 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0.0 0.0 0.8 1.0"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0.0 0.8 0.0 1.0"/>
+  </material>
+
+  <material name="grey">
+    <color rgba="0.2 0.2 0.2 1.0"/>
+  </material>
+
+  <material name="orange">
+    <color rgba="${255/255} ${108/255} ${10/255} 1.0"/>
+  </material>
+
+  <material name="brown">
+    <color rgba="${222/255} ${207/255} ${195/255} 1.0"/>
+  </material>
+
+  <material name="red">
+    <color rgba="0.8 0.0 0.0 1.0"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1.0 1.0 1.0 1.0"/>
+  </material>
+
+</robot>

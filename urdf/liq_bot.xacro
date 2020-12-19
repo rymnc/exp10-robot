@@ -11,6 +11,6 @@
   <xacro:property name="chassis_height" value="0.07" />
   <xacro:property name="chassis_mass" value="5" />
 
-   
+  
     
 </robot>
