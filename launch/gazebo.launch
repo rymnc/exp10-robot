@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-    <param name="robot_description" command = "$(find xacro)/xacro '$(find liq-robot)/urdf/model.xacro'"/>
+    <param name="robot_description" command = "$(find xacro)/xacro '$(find exp10-robot)/urdf/model.xacro'"/>
     <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
 
 

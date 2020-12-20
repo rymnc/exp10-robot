@@ -30,8 +30,8 @@
         </visual>                
     </link>
 
-    <xacro:include filename='$(find liq-robot)/urdf/materials.xacro'/>
-    <xacro:include filename="$(find liq-robot)/urdf/macros.xacro"/>
+    <xacro:include filename='$(find exp10-robot)/urdf/materials.xacro'/>
+    <xacro:include filename="$(find exp10-robot)/urdf/macros.xacro"/>
     
     <xacro:wheel_link link_name="right_front"/>
     <xacro:wheel_link link_name= "left_front"/>
